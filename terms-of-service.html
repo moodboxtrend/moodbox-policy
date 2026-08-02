@@ -1,0 +1,379 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" href="app-icon.png" type="image/png" />
+  <link rel="apple-touch-icon" href="app-icon.png" />
+  <title>Terms of Service — MoodBox</title>
+  <meta name="description" content="Terms of Service for the MoodBox mobile application." />
+  <link rel="preconnect" href="https://cdn.jsdelivr.net" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+:root {
+  --mb-primary: #6d4aff;
+  --mb-primary-dark: #5636e0;
+  --mb-accent: #ffb020;
+  --mb-bg: #f7f6fb;
+  --mb-text: #1e1b2e;
+  --mb-muted: #6b6478;
+  --mb-border: #e7e4f2;
+}
+
+body {
+  background-color: var(--mb-bg);
+  color: var(--mb-text);
+  font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  line-height: 1.7;
+}
+
+.navbar-brand {
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+
+.brand-mark {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 34px;
+  height: 34px;
+  border-radius: 10px;
+  background: linear-gradient(135deg, var(--mb-primary), var(--mb-accent));
+  color: #fff;
+  margin-right: 8px;
+  font-size: 18px;
+}
+
+.legal-header {
+  background: linear-gradient(135deg, var(--mb-primary), var(--mb-primary-dark));
+  color: #fff;
+  padding: 64px 0 48px;
+}
+
+.legal-header h1 {
+  font-weight: 800;
+  letter-spacing: -0.02em;
+}
+
+.legal-header .updated-badge {
+  display: inline-block;
+  background: rgba(255, 255, 255, 0.15);
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  padding: 6px 14px;
+  border-radius: 999px;
+  font-size: 0.85rem;
+}
+
+.legal-content {
+  background: #fff;
+  border: 1px solid var(--mb-border);
+  border-radius: 20px;
+  padding: 40px;
+  margin-top: -32px;
+  position: relative;
+  box-shadow: 0 20px 60px -20px rgba(31, 20, 82, 0.15);
+}
+
+.legal-content h2 {
+  font-size: 1.3rem;
+  font-weight: 700;
+  margin-top: 2.2rem;
+  margin-bottom: 0.9rem;
+  color: var(--mb-text);
+  scroll-margin-top: 90px;
+}
+
+.legal-content h2:first-of-type {
+  margin-top: 0.5rem;
+}
+
+.legal-content p,
+.legal-content li {
+  color: #3a3550;
+}
+
+.legal-content ul {
+  padding-left: 1.3rem;
+}
+
+.legal-content li {
+  margin-bottom: 0.4rem;
+}
+
+.toc {
+  background: var(--mb-bg);
+  border: 1px solid var(--mb-border);
+  border-radius: 16px;
+  padding: 20px;
+  position: sticky;
+  top: 24px;
+}
+
+.toc a {
+  display: block;
+  padding: 6px 0;
+  color: var(--mb-muted);
+  text-decoration: none;
+  font-size: 0.92rem;
+  border-left: 2px solid transparent;
+  padding-left: 10px;
+}
+
+.toc a:hover {
+  color: var(--mb-primary);
+  border-left-color: var(--mb-primary);
+}
+
+footer {
+  padding: 32px 0;
+  color: var(--mb-muted);
+  font-size: 0.9rem;
+}
+
+.badge-soft {
+  background: rgba(109, 74, 255, 0.1);
+  color: var(--mb-primary-dark);
+  font-weight: 500;
+}
+
+@media (max-width: 991px) {
+  .toc {
+    position: static;
+    margin-bottom: 24px;
+  }
+  .legal-content {
+    padding: 24px;
+  }
+}
+
+</style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg bg-white border-bottom">
+    <div class="container">
+      <a class="navbar-brand d-flex align-items-center" href="#">
+        <img src="app-icon.png" alt="MoodBox logo" width="34" height="34" class="me-2 rounded-2">
+        MoodBox
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navMenu">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="privacy-policy.html">Privacy Policy</a></li>
+          <li class="nav-item"><a class="nav-link active" href="terms-of-service.html">Terms of Service</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Header -->
+  <header class="legal-header text-center">
+    <div class="container">
+      <h1 class="display-6">Terms of Service</h1>
+      <p class="mb-3 opacity-75">for the MoodBox mobile application</p>
+      <span class="updated-badge">Last updated: <span id="updated-date">June 1, 2026</span></span>
+    </div>
+  </header>
+
+  <!-- Content -->
+  <main class="container mb-5">
+    <div class="row">
+      <!-- Table of contents -->
+      <div class="col-lg-3 d-none d-lg-block">
+        <nav class="toc">
+          <strong class="d-block mb-2" style="font-size:0.85rem; text-transform:uppercase; letter-spacing:0.04em; color:var(--mb-muted);">On this page</strong>
+          <a href="#acceptance">1. Acceptance of Terms</a>
+          <a href="#description">2. Description of Service</a>
+          <a href="#no-account">3. No Account Required</a>
+          <a href="#license">4. License to Use the App</a>
+          <a href="#ip">5. Intellectual Property</a>
+          <a href="#conduct">6. Acceptable Use</a>
+          <a href="#copyright">7. Copyright Complaints</a>
+          <a href="#third-party">8. Third-Party Services &amp; Links</a>
+          <a href="#disclaimer">9. Disclaimer of Warranties</a>
+          <a href="#liability">10. Limitation of Liability</a>
+          <a href="#termination">11. Termination &amp; Availability</a>
+          <a href="#changes">12. Changes to the App or Terms</a>
+          <a href="#law">13. Governing Law</a>
+          <a href="#contact">14. Contact Us</a>
+        </nav>
+      </div>
+
+      <!-- Legal text -->
+      <div class="col-lg-9">
+        <div class="legal-content">
+
+          <h2 id="acceptance">1. Acceptance of Terms</h2>
+          <p>
+            These Terms of Service ("Terms") govern your access to and use of the MoodBox mobile
+            application ("the App"), published by <strong>NextrendX</strong>
+            ("we," "us," "our"). By downloading, installing, or using the App, you agree to be
+            bound by these Terms. If you do not agree, please do not use the App.
+          </p>
+
+          <h2 id="description">2. Description of Service</h2>
+          <p>
+            MoodBox is a free content-viewing application that lets you browse jokes, recipes,
+            stories, wallpapers, and videos published through our content team. The App is
+            provided for personal, non-commercial, entertainment use.
+          </p>
+
+          <h2 id="no-account">3. No Account Required</h2>
+          <p>
+            MoodBox does not require registration, login, or any personal information to use.
+            Features such as Favorites are stored locally on your device only. Since there is no
+            account, we have no ability to identify individual users, and these Terms apply to
+            your use of the App generally rather than to a specific registered account.
+          </p>
+
+          <h2 id="license">4. License to Use the App</h2>
+          <p>
+            Subject to your compliance with these Terms, we grant you a limited, non-exclusive,
+            non-transferable, revocable license to download and use the App on a device you own or
+            control, solely for your personal, non-commercial use. This license does not permit
+            you to:
+          </p>
+          <ul>
+            <li>Copy, modify, or create derivative works of the App itself</li>
+            <li>Reverse-engineer, decompile, or disassemble the App</li>
+            <li>Rent, lease, sell, sublicense, or otherwise redistribute the App</li>
+            <li>Remove or alter any proprietary notices on the App or its content</li>
+            <li>Use any automated system (bot, scraper, crawler) to access the App's content or
+              servers at scale</li>
+          </ul>
+
+          <h2 id="ip">5. Intellectual Property</h2>
+          <p>
+            The App itself (its design, code, logo, and branding) is owned by
+            <strong>NextrendX</strong> and protected by applicable intellectual property
+            laws. The jokes, recipes, stories, wallpapers, and videos displayed within the App
+            ("Content") are either:
+          </p>
+          <ul>
+            <li>owned or licensed by us for distribution through the App, or</li>
+            <li>sourced from contributors/creators who have granted us the right to publish and
+              display that Content within MoodBox.</li>
+          </ul>
+          <p>
+            Content is provided for your personal viewing, and where a specific post explicitly
+            allows saving or sharing (indicated by a Save/Share option being available), you may
+            save it to your own device or share it for personal, non-commercial use only. You may
+            not claim authorship of Content, resell it, or use it for commercial purposes without
+            separate written permission from us or the applicable rights holder.
+          </p>
+
+          <h2 id="conduct">6. Acceptable Use</h2>
+          <p>You agree not to use the App to:</p>
+          <ul>
+            <li>Violate any applicable local, state, national, or international law</li>
+            <li>Interfere with or disrupt the App's servers, infrastructure, or other users'
+              access to the App</li>
+            <li>Attempt to gain unauthorized access to any part of the App, our systems, or our
+              admin infrastructure</li>
+            <li>Redistribute App Content at scale (e.g. republishing our entire content library on
+              another platform)</li>
+          </ul>
+
+          <h2 id="copyright">7. Copyright Complaints</h2>
+          <p>
+            We respect the intellectual property rights of others and expect our content team to
+            do the same when publishing to the App. If you believe that any Content available in
+            MoodBox infringes your copyright, please send a notice to
+            <a href="mailto:moodbox.trend@gmail.com">moodbox.trend@gmail.com</a> including:
+          </p>
+          <ul>
+            <li>A description of the copyrighted work you believe has been infringed</li>
+            <li>The specific location (post title/category) of the material within the App</li>
+            <li>Your contact information (name, email, and, if applicable, phone number)</li>
+            <li>A statement that you have a good-faith belief the use is not authorized by the
+              copyright owner, its agent, or the law</li>
+            <li>A statement, under penalty of perjury, that the information in your notice is
+              accurate and that you are the copyright owner or authorized to act on their behalf</li>
+          </ul>
+          <p>
+            Upon receiving a valid notice, we will promptly investigate and, where appropriate,
+            remove or disable access to the reported Content.
+          </p>
+
+          <h2 id="third-party">8. Third-Party Services &amp; Links</h2>
+          <p>
+            The App uses Cloudinary to host and deliver images and video thumbnails, and may
+            contain links to third-party services (for example, YouTube for video playback, or our
+            social media pages). We are not responsible for the content, privacy practices, or
+            terms of any third-party service. Your use of any third-party service is governed by
+            that service's own terms and policies.
+          </p>
+
+          <h2 id="disclaimer">9. Disclaimer of Warranties</h2>
+          <p>
+            The App and its Content are provided "as is" and "as available," without warranties of
+            any kind, whether express or implied, including but not limited to implied warranties
+            of merchantability, fitness for a particular purpose, or non-infringement. We do not
+            warrant that the App will be uninterrupted, error-free, or free of harmful components.
+            Recipe content is provided for general informational/entertainment purposes only and is
+            not professional dietary, medical, or nutritional advice — use your own judgment,
+            especially regarding allergies or dietary restrictions.
+          </p>
+
+          <h2 id="liability">10. Limitation of Liability</h2>
+          <p>
+            To the fullest extent permitted by applicable law, NextrendX shall not be
+            liable for any indirect, incidental, special, consequential, or punitive damages, or
+            any loss of data, arising out of or related to your use of, or inability to use, the
+            App, even if we have been advised of the possibility of such damages. Our total
+            liability for any claim arising from these Terms or the App shall not exceed the amount
+            you paid us to use the App (which, for the current free version, is zero).
+          </p>
+
+          <h2 id="termination">11. Termination &amp; Availability</h2>
+          <p>
+            We may suspend or discontinue the App, or any part of it, at any time, with or without
+            notice. Since the App requires no account, "termination" of your individual access
+            simply means uninstalling the App from your device, which you may do at any time. We
+            are not liable to you or any third party for any modification, suspension, or
+            discontinuation of the App.
+          </p>
+
+          <h2 id="changes">12. Changes to the App or Terms</h2>
+          <p>
+            We may update the App (including its features and available Content) and these Terms
+            from time to time. When we make material changes to these Terms, we will update the
+            "Last updated" date above. Your continued use of the App after changes are posted
+            constitutes acceptance of the revised Terms.
+          </p>
+
+          <h2 id="law">13. Governing Law</h2>
+          <p>
+            These Terms shall be governed by and construed in accordance with the laws of
+            <strong>India</strong>, without regard to its conflict of law provisions. Any disputes
+            arising from these Terms or the App shall be subject to the exclusive jurisdiction
+            of the courts located in <strong>Surat, Gujarat, India</strong>.
+          </p>
+
+          <h2 id="contact">14. Contact Us</h2>
+          <p>If you have questions about these Terms, please contact us at:</p>
+          <p>
+            <strong>NextrendX</strong><br>
+            Email: <a href="mailto:moodbox.trend@gmail.com">moodbox.trend@gmail.com</a>
+          </p>
+
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="text-center border-top">
+    <div class="container">
+      <span class="badge badge-soft rounded-pill px-3 py-2 mb-2">NextrendX</span>
+      <p class="mb-0">&copy; <span id="year"></span> NextrendX. All rights reserved.</p>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
